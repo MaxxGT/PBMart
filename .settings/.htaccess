@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Please provide correct details"
+AuthUserFile /pbmart/.settings/.htmyxyz
+require valid-user

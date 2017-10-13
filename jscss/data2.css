@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+img{
+	border:none;
+}
+.dataTable{
+width: 2870; 
+padding:3px; 
+border:solid 1px #C1DAD7; 
+ 
+font-family:"Verdana", Arial, Helvetica, sans-serif; 
+margin-bottom: 1px;
+}
+
+.dataTable .dHead{
+background:#effaef; 
+	padding:4px;
+	padding-left:20px;
+	cursor:pointer;
+	color:#336699;
+	font-size:11px;
+	border-bottom:solid 1px #C1DAD7;
+}
+.dataTable .dBody .er{
+	width:80px;
+}
+.dataTable .dBody thead td{
+        text-transform:uppercase;
+	font-size:10px;
+	border:#C1DAD7 1px solid;
+	padding:3px;
+}
+
+.dataTable .dBody td{
+        padding:3px; 
+	font-size:10px;
+	width: 25px; 
+        height: 25px; 
+        border:#C1DAD7 1px solid;
+ }
+
+td.borderred 
+{
+border-color:RED;
+background:url(../img/sq_red.png) center no-repeat;
+}
+
+td.borderyellow 
+{
+width: 30px; 
+height: 25px; 
+background:url(../img/sq_yellow.png) center repeat;
+}
+
+
+td.borderorange
+{
+width: 30px; 
+height: 25px; 
+background:url(../img/sq_orange.png) center repeat;
+}

@@ -1,0 +1,192 @@
+#cart{
+	z-index:1;
+	position:absolute;
+	right:0;
+	top:200px;
+}
+
+#item_cart table thead{
+	display:block;
+}
+
+#item_cart table tbody{
+	height:240px;
+	overflow-y:scroll;
+	display:block;
+}
+
+#pricing thead{
+	display:block;
+}
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;
+	text-decoration: none; /* no underline */
+	color: #000099;
+}
+
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000099;
+	color: #000;
+}
+
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #000099;
+	font-weight: bold;
+	background-color: #000099;
+	color: #FFF;
+}
+
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #EEE;
+	color: #DDD;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-weight: 100;
+}
+body {
+  color:#333;
+	text-align:center;
+}
+
+#complete{
+	z-index:1;
+	position:absolute;
+}
+
+.commercial_form{
+	border:2px solid;
+	background-color:#afafaf;
+	width:650px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+
+#formsToggle{
+	z-index:1;
+	position:fixed;
+	bottom:80;
+	right:120;
+}
+
+#toggle{
+	width:130px;
+	height:40px;
+}
+
+#report{
+	display:block;
+	border-radius:5px;
+	border:1px solid black;
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+#report input{
+	margin:28px 0 28px 28px;
+	border-radius:5px;
+	border:2px solid red;
+	padding:4px;
+}
+
+#report input:hover{
+	border:2px solid blue;
+}
+
+#stock{
+	display:block;
+	border-radius:5px;
+	border:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	margin-bottom:30px;
+}
+
+#stock_item{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+#stock_item img{
+	border-radius:5px;
+	border:1px solid black;
+	margin:6px 0 0 6px;
+}
+
+#stock_list{
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	margin-bottom:30px;
+}
+
+.company_form{
+	display:block;
+	border-radius:5px;
+	border:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	width:910px;
+}
+
+.form_header{
+	border-radius:5px 5px 0px 0px;
+	font-size:20px;
+	font-weight:bold;
+	background-color:#AFAFAF;
+}
+
+.member_legend{
+	display:block;
+	width:60px;
+	height:20px;
+	float:left;
+	margin-left:20px;
+}
+
+#mem_report{
+	display:block;
+	border-radius:5px;
+	border:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	padding-top:20px;
+}
+
+#mem_report table tr td{
+	border-style:solid;
+	padding-left:12px;
+}
+
+#mem_submit{
+	border-bottom-style:hidden;
+	border-left-style:hidden;
+	border-right-style:hidden;
+}
+
+#title{
+	font-weight:bold;
+	font-size:20px;
+	padding:10px;
+}

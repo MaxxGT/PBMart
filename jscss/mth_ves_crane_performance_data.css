@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+img{
+	border:none;
+}
+.dataTable{
+padding:3px; border:solid 1px #C1DAD7; background:#effaef; font-family:"Verdana", Arial, Helvetica, sans-serif; margin-bottom: 5px;
+}
+
+.dataTable .dHead{
+	padding:4px;
+	cursor:pointer;
+	font-family:"Verdana", Arial, Helvetica, sans-serif;
+	color:#336699;
+	font-size:13px;
+	border-bottom:solid 1px #C1DAD7;
+}
+.dataTable .dHead td{
+	padding:4px;
+	cursor:pointer;
+	color:#336699;
+	font-size:13px;
+}
+.dataTable .dBody{
+	font-size:11px;
+	text-align:left;
+	padding:1px;
+}
+.dataTable .dBody table {
+	border-top:#C1DAD7 2px solid;
+	border-right:#C1DAD7 2px solid;
+	border-left:#C1DAD7 1px solid;
+	border-bottom:#C1DAD7 1px solid;
+}
+.dataTable .dBody table td{
+	font-size:11px;
+	color:#336699;
+	border-left:#C1DAD7 1px solid;
+	border-bottom:#C1DAD7 1px solid;
+	padding:2px;
+}

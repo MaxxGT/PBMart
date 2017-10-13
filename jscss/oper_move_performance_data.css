@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+img{
+	border:none;
+}
+
+.dBody{
+	font-size:11px;
+	text-align:left;
+	padding:1px;
+}
+.dBody table{
+	width:1700px;
+	border-right:#C1DAD7 1px solid;
+	border-top:#C1DAD7 1px solid;
+	border-left:#C1DAD7 0.5px solid;
+	border-bottom:#C1DAD7 0.5px solid;
+}
+.dBody table td{
+	font-size:11px;
+	color:#336699;
+	align:center;
+	vertical-align:center;
+	border-left:#C1DAD7 0.5px solid;
+	border-bottom:#C1DAD7 0.5px solid;
+	padding:1px;
+}

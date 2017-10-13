@@ -1,0 +1,39 @@
+.menu{
+	margin:0; 
+	padding:0; 
+	width:250px; 
+	list-style:none;
+	background:white;
+}
+
+.menu li{
+	padding:0; 
+	margin:0 0 1px 0; 
+	height:40px; 
+	display:block; 
+}
+		
+.menu li a{
+	text-align:left;
+	height:40px; 
+	padding:0px 25px; 
+	font:16px Verdana, Arial, Helvetica, sans-serif; 
+	color:white; 
+	display:block; 
+	background: black;
+	text-decoration:none;
+}
+		
+.menu li a:hover{	
+	color:blue;
+	background:#00FFFF;
+}
+
+.menu li a.active, .menu li a.active:hover{
+	background:blue;
+	color:rgb(255,255,255);
+}
+
+.menu li a span{
+	line-height:40px;
+}

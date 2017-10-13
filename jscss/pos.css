@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+img{
+	border:none;
+}
+body {
+    font-family:"Verdana", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000008;
+   }
+   
+.face table{
+	border-top:#C1DAD7 2px solid;
+	border-right:#C1DAD7 2px solid;
+	border-left:#C1DAD7 1px solid;
+	border-bottom:#C1DAD7 1px solid;
+	font-size:12px;
+}
+.face table th{
+	font-size:11px;
+	background:	#C3FDB8;
+	color:#336699;
+	border-left:#C1DAD7 1px solid;
+	border-bottom:#C1DAD7 1px solid;
+	padding:3px;
+}
+.face table td{
+	font-size:11px;
+	color:#000008;
+	border-left:#C1DAD7 1px solid;
+	border-bottom:#C1DAD7 1px solid;
+	padding:3px;
+}
+.box table{
+	font-size:13px;
+	text-align:left;
+	padding:1px;
+}
+.box table td{
+	font-size:13px;
+	color:#000008;	
+	padding:2px 5px;
+}

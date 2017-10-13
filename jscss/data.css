@@ -1,0 +1,99 @@
+@charset "utf-8";
+img{
+	border:none;
+}
+.dataTable{
+padding:3px; border:solid 1px #C1DAD7; background:#effaef; font-family:Arial, Helvetica, sans-serif; margin-bottom: 5px;
+}
+.dataTable .dTitle{
+border: solid 1px #C1DAD7; padding: 3px; background: #fcfcff;
+	background:#C6D2DB url('../pvt/img/t2.gif') repeat-x left top;
+	cursor:pointer;
+}
+.dataTable .rawData{
+ border:1px solid #C1DAD7; border-top:none; 
+}
+.dataTable .dHead{
+	padding:4px;
+	padding-left:20px;
+	cursor:pointer;
+	color:#336699;
+	font-size:13px;
+	border-bottom:solid 1px #C1DAD7;
+	background:url(../img/downHover.gif) no-repeat center left;
+}
+
+.dataTable .dBody .tblD td {
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	border-bottom:#C1DAD7 1px solid;
+	border-right:#C1DAD7 1px solid;
+	padding: 3px 4px;
+}
+
+.dataTable .dBody .tblD thead td {
+	background:url(../img/bttntry.gif);
+	padding:6px;
+	text-transform:uppercase;
+	color:#336699; 
+	font-size:10px;
+}
+.dataTable .dBody .tableTool{
+	font-size:12px; 
+	padding:3px; 
+	background:#fff; 
+	background-image: url(../pvt/img/bttntry.gif); 
+	height: 25px; 
+	border: solid 1px #C1DAD7; 
+	border-top: none;
+}
+.dataTable .dBody tbody tr {
+	/* background:#FFFFFF; */
+    height:5px;
+}
+.dataTable .dBody .tblD {
+	/*border-bottom:#C1DAD7 1px solid;*/
+	border-left:#C1DAD7 1px solid;
+}
+.dataTable .dPaging{
+   margin-top: 3px;
+   height:22px;
+   border:1px solid #bbd;
+   background:url('../pvt/img/t1.gif') repeat-x top right;
+ /*    margin-bottom: 6px;*/
+}
+
+.dataTable .dPaging a .pItem{
+    height:22px;
+    width:22px;
+    cursor:pointer;
+    float:left;
+    font-size:14px;
+    border-right:solid #ccc 1px;
+    font-weight:bold;
+    text-align:center;
+}
+.dataTable .dPaging .pInfo{
+   height:12px;
+   float:left;
+   font-size:12px;
+   color:gray;
+   text-align:center;
+   padding:3px;
+}
+.dataTable .dPaging a .pNext{
+    background:url(../img/go-next.png) center no-repeat;
+}
+.dataTable .dPaging a .pPrev{
+	background:url(../img/go-previous.png) center no-repeat;
+}
+.dataTable .dPaging a .pCurrent{
+	font-size:12px;
+	background:#cce;
+}
+.dataTable .dPaging a .pItem:hover{
+	background-color:#eef;
+}
+.blank table tr td{
+	border:none;
+	padding:0;
+}

@@ -1,0 +1,1 @@
+text size 30pt font: Berlin sans FB

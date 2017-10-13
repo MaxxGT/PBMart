@@ -1,0 +1,78 @@
+#outter{
+	border-radius:10px;
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header img{
+	padding:15px;
+	padding-left:30px;
+	float:left;
+}
+
+#title{
+	padding-top:14px;
+	display:block;
+	text-align:left;
+	font-size:28px;
+}
+
+#company{
+	font-size:14px;
+}
+
+#blank{
+	display:block;
+	height:10px;
+}
+
+#address{
+	padding-top:-10px;
+	text-align:left;
+	font-size:12px;
+	display:block;
+}
+
+#ref{
+	padding-left:80px;
+	font-size:12px;
+}
+
+.tab{
+	padding-right:25px;
+}
+
+#body{
+	padding-top:10px;
+}
+
+table th, table td{
+	font-size: 12px;
+	font-weight: normal;
+	text-align:left;
+	padding-left:12px;
+}
+
+#content{
+	padding-top:10px;
+	padding-bottom:80px;
+}
+
+#content table{
+	border-collapse:collapse;
+}
+
+#content table th{
+	background: #afafaf; 
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#signature{
+	padding-top:40px;
+}
+
+.space{
+	padding-left:10px;
+}

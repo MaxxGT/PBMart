@@ -1,0 +1,53 @@
+<style="text/css">
+.btns
+{
+	background: red;
+	text-decoration: none;
+}
+
+.btns {
+  width:70px; 
+  background:#8b0000; 
+  border:0; color:#fff; height:27px; display:block; line-height:26px; cursor:pointer; margin:12px 0 10px 0;
+  text-decoration: none;
+}
+
+.btns:hover
+{
+	background: #FF0000;
+	text-decoration: none;
+}
+
+.btns2
+{
+	background: red;
+	text-decoration: none;
+}
+
+.btns2 {
+  width:100px;
+  background:#8b0000; 
+  border:0; color:#fff; height:27px; display:block; line-height:26px; cursor:pointer; margin:12px 0 10px 0;
+  text-decoration: none;
+}
+
+.btns2:hover
+{
+	background: #FF0000;
+	text-decoration: none;
+}
+
+.active_redemption {
+	font-family: Trebuchet MS;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+  
+	background: #FFFFFF;
+	color: #FF0000;
+	border:2;
+}
+</style>
